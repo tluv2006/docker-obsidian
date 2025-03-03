@@ -27,5 +27,5 @@ jobs:
         id: build-image
         run: |
           docker build -t obsidian .
-          docker tag obsidian:latest 418965604031.dkr.ecr.us-east-1.amazonaws.com/obsidian:latest
-          docker push 418965604031.dkr.ecr.us-east-1.amazonaws.com/obsidian:latest
+          docker tag obsidian:latest 418965604031.dkr.ecr.us-east-1.amazonaws.com/gridconnectllc/obsidian:latest
+          docker push 418965604031.dkr.ecr.us-east-1.amazonaws.com/gridconnectllc/obsidian:latest
